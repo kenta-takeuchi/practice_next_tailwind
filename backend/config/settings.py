@@ -38,6 +38,7 @@ INSTALLED_APPS = [
 
     # My apps
     'api.apps.ApiConfig',
+    'post.apps.PostConfig',
 
     # 3rd packages
     'rest_framework',
