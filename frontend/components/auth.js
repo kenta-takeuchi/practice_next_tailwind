@@ -48,7 +48,7 @@ export default function Auth() {
             await login()
         } else {
             try {
-                await fetch(`${process.env.NEXT_PUBLIC_RESTAPI_URL}/api/register`,
+                await fetch(`${process.env.NEXT_PUBLIC_RESTAPI_URL}/api/register/`,
                     {
                         method: "POST",
                         body: JSON.stringify({username: username, password: password}),
