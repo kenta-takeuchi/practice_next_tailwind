@@ -2,10 +2,8 @@ import {useState} from 'react';
 import {useRouter} from "next/router";
 
 import Cookies from "universal-cookie";
-
 import {FontAwesomeIcon} from "@fortawesome/react-fontawesome";
 import {faLock} from "@fortawesome/free-solid-svg-icons";
-
 
 const cookie = new Cookies();
 
